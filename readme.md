@@ -1,6 +1,6 @@
-# The Problem
+# The Task
 
-Please have a look at our cloud service immudb (Vault)[http://vault.immudb.io/] and build a simple application (Frontend + Backend) around it with the following requirements:
+Please have a look at our cloud service immudb (http://vault.immudb.io/)[Vault] and build a simple application (Frontend + Backend) around it with the following requirements:
 
 - Application is storing accounting information within immudb Vault with the following structure: account number (unique), account name, iban, address, amount, type (sending, receiving)
 
@@ -30,6 +30,8 @@ Run the following command to start the application
 docker compose build
 docker compose up
 ```
+
+Open browser and navigate to `http://localhost:5656`
 
 # API
 
